@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.example.learnbydoing.microservices.currencyexchangeservice.CurrencyExchangeServiceApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 6.885 s <<< FAILURE! - in com.example.learnbydoing.microservices.currencyexchangeservice.CurrencyExchangeServiceApplicationTests
+contextLoads  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bootstrapImportSelectorConfiguration': Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: org/springframework/boot/context/properties/ConfigurationPropertiesBean
+Caused by: java.lang.NoClassDefFoundError: org/springframework/boot/context/properties/ConfigurationPropertiesBean
+Caused by: java.lang.ClassNotFoundException: org.springframework.boot.context.properties.ConfigurationPropertiesBean
+

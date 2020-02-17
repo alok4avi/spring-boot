@@ -1,0 +1,4 @@
+com\example\learnbydoing\microservices\currencyexchangeservice\bean\CurrencyExchange.class
+com\example\learnbydoing\microservices\currencyexchangeservice\CurrencyExchangeRepository.class
+com\example\learnbydoing\microservices\currencyexchangeservice\CurrencyExchangeController.class
+com\example\learnbydoing\microservices\currencyexchangeservice\CurrencyExchangeServiceApplication.class
